@@ -13,7 +13,7 @@ body{
     background-image: url(/assets/images/bolha-background.png);
     background-repeat: no-repeat;
     background-size: 600px;
-    background-position: 0;
+    background-position: left center;
 }
 a{
     cursor: pointer;
