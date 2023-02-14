@@ -1,0 +1,120 @@
+/*Reset start*/
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: "Source Sans Pro",sans-serif;
+    color: #39c;
+}
+/*Reset end*/
+
+body{
+    background-image: url(/assets/images/bolha-background.png);
+    background-repeat: no-repeat;
+    background-size: 600px;
+    background-position: 0;
+}
+a{
+    cursor: pointer;
+}
+
+/*Orange buttons style start*/
+.bnt{
+    cursor: pointer;
+    color: white;
+    background-color: orangered;
+    padding: 10px 40px;
+    border-radius: 30px;
+}
+/*Orange buttons style end*/
+
+/*Header*/
+header{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    font-size: 19px;
+    font-weight: 300;
+    margin: 34px 71px;
+    padding: 20px;
+    height: 20vh;
+}
+#header_container1--logo{
+    cursor: pointer;
+    color: orangered;
+    font-size: 4rem;
+    font-weight: 400;
+}
+#header_container2--ul{
+    list-style: none;
+    display: flex;
+}
+#header_container2--ul li{
+    margin-right: 32px;
+}
+/*Header end*/
+
+/*Main*/
+/*Main left*/
+main{
+    height: 70h;
+}
+#main_container{
+    margin: 34px 71px;
+    padding: 20px;
+    display: flex;
+}
+#main_container_div1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#main_container_div1--title{
+    color: #333366;
+    font-size: 80px;
+    font-weight: 400;
+}
+#main_container_div1 p{
+    font-size: 20px;
+    font-weight: 100;
+}
+#main_container_div1 h2{
+    font-size: 40px;
+    font-weight: 200;
+    margin: 15px 0;
+}
+#main_container_div1 a{
+    margin: 35px 0;
+    text-align: center;
+    width: 60%;
+}
+/*Main left end*/
+
+/*Main Right*/
+
+#main_container_div2--img{
+    width: 100%
+}
+/*Main Right end*/
+/*Main end*/
+
+/*Footer*/
+footer{
+    height: 10vh;
+}
+.footer_container--svg{
+    width: 100%;
+    height: 100%;
+}
+#footer_container{
+    margin: 34px 71px;
+    padding: 20px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 0.1fr);
+    grid-template-rows: 10vh;
+}
+#footer_container a{
+    width: 60%;
+}
