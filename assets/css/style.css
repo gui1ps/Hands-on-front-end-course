@@ -12,56 +12,59 @@
 body{
     background-image: url(/assets/images/bolha-background.png);
     background-repeat: no-repeat;
-    background-size: 600px;
-    background-position: left center;
+    background-size: 800px;
+    background-position-y: -225px;
 }
 a{
     cursor: pointer;
 }
 .container{
-    margin: 34px 71px;
-    padding: 20px;
+    margin: 34px 20px;
 }
 
 /*Orange buttons style start*/
 .bnt{
     cursor: pointer;
     color: white;
+    font-size: 1.7rem;
     background-color: orangered;
-    padding: 10px 40px;
+    padding: 10px 20px;
     border-radius: 30px;
 }
 /*Orange buttons style end*/
 
 /*Header*/
 header{
+    height: 30vh;
+    width: 100%;
+}
+#header-container{
     display: flex;
     align-items: center;
     justify-content:space-between;
     font-size: 19px;
     font-weight: 300;
-    height: 20vh;
 }
 #header_container1--logo{
     cursor: pointer;
     color: orangered;
-    font-size: 4rem;
+    font-size: max(5vw,45px);
     font-weight: 400;
+
 }
 #header_container2--ul{
     list-style: none;
     display: flex;
 }
 #header_container2--ul li{
-    margin-right: 32px;
+    margin:0 15px;
 }
+
 /*Header end*/
 
 /*Main*/
 /*Main left*/
-main{
-    height: 70h;
-}
+
 #main_container{
     display: flex;
 }
@@ -69,25 +72,27 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 50%;
 }
 #main_container_div1--title{
     color: #333366;
-    font-size: 80px;
+    font-size: max(5vw,50px);
     font-weight: 400;
 }
 #main_container_div1 p{
-    font-size: 20px;
+    font-size: max(2.5vw,16px);
     font-weight: 100;
+    text-align: justify;
 }
 #main_container_div1 h2{
-    font-size: 40px;
+    font-size: max(3.5vw,30px);
     font-weight: 200;
     margin: 15px 0;
 }
 #main_container_div1 a{
     margin: 35px 0;
     text-align: center;
-    width: 60%;
+    width: 80%;
 }
 /*Main left end*/
 
@@ -101,7 +106,7 @@ main{
 
 /*Footer*/
 footer{
-    height: 10vh;
+    height: 20vh;
 }
 .footer_container--svg{
     width: 100%;
@@ -112,9 +117,9 @@ footer{
     padding: 20px;
     height: 100%;
     display: grid;
-    grid-template-columns: repeat(3, 0.1fr);
+    grid-template-columns: repeat(3,1fr);
     grid-template-rows: 10vh;
 }
 #footer_container a{
-    width: 60%;
+    width: 100%;
 }
