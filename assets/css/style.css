@@ -17,6 +17,7 @@ body{
 }
 a{
     cursor: pointer;
+    text-decoration: none;
 }
 .container{
     margin: 34px 20px;
